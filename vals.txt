@@ -1,0 +1,732 @@
+Column: Manufacturer
+['HYUNDAI' 'TOYOTA' 'MERCEDES-BENZ' 'HONDA' 'BMW' 'FORD' 'LEXUS'
+ 'CHEVROLET' 'AUDI' 'SKODA' 'SSANGYONG' 'MITSUBISHI' 'OPEL' 'VOLKSWAGEN'
+ 'JAGUAR' 'KIA' 'NISSAN' 'DODGE' 'GAZ' 'SUBARU' 'MAZDA' 'ALFA ROMEO'
+ 'PEUGEOT' 'FIAT' 'VAZ' 'JEEP' 'PORSCHE' 'ACURA' 'SUZUKI' 'VOLVO'
+ 'CADILLAC' 'DAEWOO' 'DAIHATSU' 'PONTIAC' 'GMC' 'MINI' 'LINCOLN' 'CITROEN'
+ 'RENAULT' 'UAZ' 'BUICK' 'LAND ROVER' 'INFINITI' 'FERRARI' 'CHRYSLER'
+ 'ASTON MARTIN' 'SCION' 'LAMBORGHINI' 'SEAT' 'BENTLEY' 'ROLLS-ROYCE'
+ 'HUMMER']
+ Column: Model
+['Santa FE' 'Sonata' 'Prius' 'E 350' 'Step Wagon' '128' 'Sprinter' '330'
+ 'SLK 350 300' 'RAV 4' 'Mustang' 'GX 470' 'Camry' 'Lacetti' 'A6'
+ 'Veloster' 'Prius C' 'B 170 Edition One' 'Octavia' 'Tucson' 'Actyon'
+ '328' 'C 300' 'Aqua' 'ML 280' 'ML 350' 'A7' 'Accent' 'Cruze' 'S 55 5.5'
+ '335 M paket' 'Colt' 'Q7' 'Astra' 'Routan SEL' 'Elantra' 'Captiva'
+ 'Sonata LIMITED' 'C 280' 'Fusion' 'XF' 'Sonata sport' 'FIT' 'GLA 250'
+ 'X5' 'Transit' 'GLS 450' 'RX 400' 'Korando' 'Aveo' 'Carnival' 'Cefiro'
+ 'Avenger' 'CT 200h' 'CC' 'Elysion' '20' 'Optima' 'Outback' '323 F'
+ 'Vectra' 'H1' 'Accord' 'Sonata Limited' 'Volt' 'RX 450' 'Pajero' 'Tiida'
+ 'Q5' '325' 'Focus' '323' '147' 'Camry Se' 'C 180' '407' '500L LONG'
+ '2105' 'Versa' 'A4 S4' 'X1' 'Compass' 'Micra' 'Grandeur' 'GX 460' 'Jetta'
+ 'Viano' 'Cayenne' 'E 320' 'Forester' '520' 'TL' 'X-Terra' 'Highlander'
+ 'A4' 'Tiguan' 'i20' 'Caliber' 'Vito' 'Swift' 'Equinox' 'CX-9' 'Genesis'
+ 'E 300' 'S70' 'Civic' '525' 'Eclipse' 'ATS' '550' 'E 240' 'Passat' '535'
+ 'Juke' 'C-MAX SE' 'SLK 230' 'Airtrek' 'Legacy' 'GLE 350' 'RX 350' '650'
+ 'Avalon' 'Outlander SE' 'Corolla Im' 'Aqua G klas' 'Astra H' 'Camry SE'
+ 'CLK 200' 'Orlando' 'CHR' 'Grand Cherokee' 'Malibu' '528' 'Jetta se'
+ 'C 240 W 203' 'C 250 AMG-PAKET-1,8' 'Spark' 'Prius V ALPINA' 'Touareg'
+ 'SX4' 'Cherokee' 'REXTON' 'Delica 5' 'X5 X-Drive' 'Teana' 'E 220'
+ 'Tundra' 'Move' 'Explorer' 'Escudo' 'Escape' 'Note' 'CX-5' 'ML 270' '616'
+ 'Quest' 'Mazda 3' 'Verisa' 'Civic Hybrid' 'Golf' 'C 200' 'Tucson SE'
+ 'X-Trail' 'Cerato' 'Demio' '530' 'G6' 'LS 460' 'Camaro' 'CTS' '335'
+ 'Corolla' '2106' 'March' '318' 'Zafira' 'C 250' 'Cr-v' 'C-MAX' 'Edix'
+ 'Juke nismo' 'Acadia' 'Focus se' 'Insight EX' 'S 550' 'GL 450' 'Cooper'
+ 'Sienna' 'Sonic' 'Grand Cherokee LAREDO' 'Countryman' 'Vitara' 'Tacoma'
+ 'Fiesta' 'Insight' 'Mazda 5' 'RC F' 'ML 350 ML350' '207' 'Crossland X'
+ 'Space Runner' 'Kicks SR' 'Astra G' 'IX35' 'Town Car' 'C1' 'CLA 250'
+ 'S 350' 'Stream' 'Ioniq' 'I30' 'Combo' '428' 'Golf TDI' 'Mondeo' 'Clio'
+ 'Grand Vitara' 'YRV' 'Maxima' 'Viano Ambiente' 'XV' 'Impala' 'E 500' 'X6'
+ 'MPV' 'Cami' 'Ist' 'Ridgeline' 'CT 200h 1.8' '745 i' 'Camry XLE' 'Vitz'
+ 'M4' 'Optima hybrid' 'Camry HYBRID' 'CT 200h F SPORT'
+ 'Cooper S Cabrio R56' 'C-MAX HYBRID' 'Outlander sport' 'XE' 'Golf 3'
+ 'Scirocco' 'Fusion 1.6' 'LX 470' 'Cinquecento' 'TT' 'GLK 300' '31514'
+ '4Runner' '270' 'G 300' 'Sportage' 'Matiz' 'NX 300' 'Scenic' 'Rx-8'
+ 'Taurus' '530 GT' 'CLK 320' 'Century' 'S 500' 'Corolla verso' 'I'
+ 'Tacoma TRD Off Road' 'Estima' 'Outlander' 'Fusion phev' 'RX 300'
+ 'Megane 1.5CDI' '316' 'Sonata Hibrid' 'Avalanche' 'RAV 4 SPORT' '807'
+ 'Caddy' 'Liberty' 'Range Rover' 'IS 300' 'MDX' 'Challenger'
+ '640 GRAN-COUPE' 'Fusion Hybrid' 'Cougar' 'B 170' 'HS 250h' 'Patrol'
+ 'Getz' 'Sonata SPORT' 'Yaris' '206' '320' 'Rogue' '318 318' 'Escape 3.0'
+ 'FX35' '325 CI' '1300' '456' 'Corsa Corsa' 'C 220' 'A 190' 'Skyline'
+ 'Jimny' 'ML 320' 'C 240' 'Pacifica' '740' 'Dart Limited' '21 3.0'
+ 'Passat R-line' 'Impreza G4' 'Freelander' 'Fusion TITANIUM' 'Malibu LT'
+ 'Vento' 'E 200' '500' 'Transit T330' 'Golf GTI' 'Prius V' 'ES 350' '3796'
+ 'Corsa' 'Forte' 'Premacy' 'Smart' 'E 270' 'Land Cruiser Prado' 'FX45'
+ 'Optima ex' 'Cadenza' 'CLK 200 kompresor' 'GX 470 SUV 4D (4.7L V8 S'
+ '500 Abarth' 'Malibu Hybrid' 'Encore' 'Presage' 'ISIS' 'Shuttle' 'Hilux'
+ 'BB' 'Virage' 'FIT HYBRYD' 'F-type' 'IS 250' '208' 'CLS 350 AMG' '750'
+ '508' '530 i' 'Camaro RS' 'Murano' 'Elantra SE' 'Altima' 'GL 450 3.0'
+ 'Land Cruiser' 'Elantra GT' 'GLK 350' 'Sprinter MAX' 'Meriva' 'Q50 S Red'
+ 'Fusion SE' 'RX 450 F SPORT' 'Transit Connect' '300' 'Inspire' 'Golf 4'
+ 'macan S' 'Pajero IO' 'Mazda 6 TOURING' 'Vectra B' 'FIT NAVI PREMIUM'
+ 'Mazda 6' 'Countryman S' 'FIT RS MODELI' 'Yaris RS' 'Prius personna'
+ 'CX-7' 'Moco' 'Combo 2001' 'Santa FE Ultimate' '322173' '640' '1000'
+ 'S 430' 'E 220 W210...CDI' 'Sentra' '523' 'CLS 550' 'T3' '428 i' '325 XI'
+ 'C 320' 'CRX' 'B 220' '328 DRIFT CAR' 'Sprinter 315CDI' 'Sienta'
+ 'C 250 luxury' '200' 'tC' 'Sprinter 516' 'Ramcharger' 'ES 300 hybrid'
+ 'CR-Z Ã©Â\x86Â¿Ã¦Â\x90Â¬Ã¥Â\x84Â¤Ã©Â\x86Â¿Ã¦Â\x88Â\x93Ã¥Â\x84Â¬Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9eÃ©Â\x86Â¿?2010'
+ 'Twingo' 'Citan' 'M3' 'Polo' '225' 'Tigra' 'ML 500' 'Corolla S' 'E 280'
+ 'Sorento' 'Avella' 'Fusion Titanium' 'Mirage' 'ML 550 4.7'
+ 'Pajero Mini 2010 Ã©Â\x86Â¿Ã®Â\x83Â¼Ã¥Â\x84Â¦Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9bÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¤'
+ 'Impreza' 'Rogue Sport' 'XJ' 'EX37'
+ 'C 250 1.8 Ã©Â\x86Â¿Ã¢Â\x91Â¨Ã¥Â\x84Â¯Ã©Â\x86Â¿Ã§Â\x8aÂªÃ¥Â\x84Â\x9cÃ©Â\x86Â¿?2013'
+ 'Pajero Mini 2008 Ã©Â\x86Â¿Ã®Â\x83Â¼Ã¥Â\x84Â¦Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9bÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¤'
+ 'Astra gi' 'Scorpio' 'Ractis' 'Traverse' 'Axela' 'Chariot'
+ 'RX 450 HYBRID' 'Fiesta 1.6' 'B-MAX' 'RVR' 'FIT S' 'VOXY' 'Urus'
+ 'C 180 komp' 'Caddy cadi' 'FJ Cruiser' 'Patriot' 'B 200' 'RIO'
+ 'Forester XT' 'Odyssey' 'Land Cruiser 11' 'UP' 'XL7' 'F150' 'GL 550'
+ 'Fabia' 'Volt Full Packet' 'Maverick' 'MKZ hybrid' 'Ranger'
+ 'Discovery IV' 'Fred' '911 meqanika' 'Panda' 'GL 350' 'Vanette' 'Passo'
+ 'Swift Sport' 'Jetta GLI' 'Yaris iA' '240' '2121 (Niva)' 'Jetta 2.0'
+ 'Cruze LT' 'Ibiza' '730' 'Elgrand' 'Touran' 'ML 350 370' '24 10' 'ML 300'
+ 'Astra BERTONE' 'T3 0000' 'GLC 300 GLC coupe' 'E 55' 'Camry sel'
+ 'Cruze L T' 'E 270 4' '911' 'Transit 100LD' '50' 'EcoSport SE'
+ 'E 220 ELEGANCE' 'Aqua S' 'C 230' 'DTS' 'Veloster R-spec' 'CLK 320 AMG'
+ 'CLK 270' 'Outlander SPORT' 'Pajero Mini' '500 46 ml' 'Sintra'
+ 'ML 320 cdi' 'Megane 1.9 CDI' 'Elantra Limited' 'Corolla IM' 'Serena'
+ 'Camry se' '328 i' 'Picanto' 'Mazda 3 SPORT' 'Eclipse ES' 'GLC 250'
+ '3110' 'M6 Gran cupe' 'Alphard' 'PT Cruiser pt cruiser' 'Jetta s' 'Regal'
+ 'CLS 55 AMG' 'Camry LE' 'X6 Limited' 'IS 200' 'Megane 19' 'Corolla 04'
+ 'GL 320' 'S-type' '335 335i' 'TERRAIN' 'G 55 AMG' 'A8' 'LX 570'
+ 'Transit Connect Ã©Â\x86Â¿Ã¦Â\x88Â\x93Ã¥Â\x84Â\x9fÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¢Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â¨Ã©Â\x86Â¿?2014'
+ 'A3' 'X3' 'Allroad' '520 Vanos' 'Wingroad' 'Demio mazda2' '535 i'
+ 'Avalon LIMITED' 'Mulsanne' 'C-MAX PREMIUM' 'Daimler' '230' 'Phantom'
+ '128 M tech' '325 i' 'A4 B6' 'Outlander Sport' 'B 200 Turbo' 'NX 200'
+ 'Juke Turbo' 'Astra GTC 1.9 turbo dies' 'H3' 'Sprinter 313CDI' 'C 32 AMG'
+ 'Frontier' 'Astra CNG'
+ 'Range Rover Evoque Ã©Â\x86Â¿Ã§Â\x8aÂªÃ¥Â\x84Â\x9fÃ©Â\x86Â¿Ã¢Â\x99Â\x82Ã¥Â\x84Â®Ã©Â\x86Â¿?2016'
+ 'FIT Sport' 'Jetta SE' 'M5' 'L 200' 'Montero' 'M6' 'H1 grandstarex'
+ 'Range Rover Velar' '406' 'E 220 211' 'Kizashi' 'Passat Se' 'Q5 Prestige'
+ 'Prius s' 'Aqua G' 'CLK 230' 'Altezza' 'Venza' 'Z4 3,0 SI' 'Grand HIACE'
+ 'Doblo' 'Camry sport' '535 i xDrive' 'Tourneo Connect' 'GL 320 bluetec'
+ 'S80' 'Ignis' 'Transit ford' 'Ceed' 'ES 300' 'Discovery'
+ 'CL 55 AMG KOMPRESSOR' 'C 63 AMG' 'Hr-v EX' 'Jetta TDI' 'XC90' 'CL 550'
+ 'Vito 115 CDI' 'Punto' '3.18E+38' '500 sport' 'Celica' 'RS7' 'Pathfinder'
+ 'Minica' 'Accent SE'
+ 'IS 250 Ã©Â\x86Â¿Ã§Â\x8aÂªÃ¥Â\x84Â\x9fÃ©Â\x86Â¿Ã¢Â\x99Â\x82Ã¥Â\x84Â®Ã©Â\x86Â¿Ã¦Â\x84Â¥Ã¥Â\x84Â¤Ã©Â\x86Â¿Ã¦Â°Â\xa0Ã¥Â\x84Â¤Ã©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â\x9dÃ©Â\x86Â¿?2011'
+ 'E 430' 'A 170' 'Vaneo' 'CLK 430' 'RX 400 RESTAILING' 'Taurus X' 'Gentra'
+ 'C 320 AMG' 'E 320 bluetec' 'Qashqai SPORT' '500X' 'Catera' 'Neon'
+ 'Phaeton' 'Vectra c' 'RX 400 HYBRID' 'Prius 1.8' 'Transit S' 'Megane']
+Column: Prod. year
+[2021. 1987. 2008. 1990. 2007. 2018. 2010. 2001. 1992. 2012. 2003. 2005.
+ 2020. 2019. 2022. 2015. 2009. 2000. 1989. 2014. 2004. 1993. 2016. 2006.
+ 2002. 1986. 1994. 1991. 1998. 2017. 1999. 1996. 1997. 1995. 2013. 2011.
+   nan 1964. 1985. 1988. 1984. 1981. 1983. 1982.]
+   Column: Category
+['Jeep' 'Sedan' 'Hatchback' 'Minivan' 'Coupe' 'Microbus' 'Cabriolet'
+ 'Goods wagon' 'Universal' 'Limousine' 'Pickup']
+ Column: Leather interior
+['Yes' 'No']
+Column: Fuel type
+['Diesel' 'Hybrid' 'Petrol' 'LPG' 'CNG' 'Plug-in Hybrid']
+Column: Cylinders
+[ 4.  6.  8.  5. 10.  2.  1.  9. 12.  3.  7. 16.]
+Column: Gear box type
+['Automatic' 'Variator' 'Manual' 'Tiptronic']
+Column: Drive wheels
+['Front' '4x4' 'Rear']
+Column: Doors
+['4' '2' '>5']
+
+Column: Wheel
+['Left wheel' 'Right-hand drive']
+
+Column: Color
+['Grey' 'Black' 'Silver' 'Red' 'White' 'Blue' 'Brown' 'Carnelian red'
+ 'Beige' 'Orange' 'Green' 'Golden' 'Sky blue' 'Purple' 'Yellow' 'Pink']
+
+Column: Airbags
+[12.  4.  0.  8.  7. 10.  2.  6. 16.  1.  3.  9. 11.  5. 13. 15. 14.]
+
+
+
+
+
+
+/// elsahhh:: 
+Column: Manufacturer
+['MERCEDES-BENZ' 'SSANGYONG' 'HYUNDAI' 'LEXUS' 'BMW' 'OPEL' 'KIA' 'VOLVO'
+ 'NISSAN' 'TOYOTA' 'HONDA' 'FORD' 'FIAT' 'VOLKSWAGEN' 'MAZDA' 'CHEVROLET'
+ 'AUDI' 'SUZUKI' 'MITSUBISHI' 'SUBARU' 'LINCOLN' 'UAZ' 'DODGE' 'BUICK'
+ 'JEEP' 'VAZ' 'DAEWOO' 'PORSCHE' 'DAIHATSU' 'GAZ' 'JAGUAR' 'CITROEN'
+ 'ISUZU' 'MINI' 'ROVER' 'GMC' 'CHRYSLER' 'LAND ROVER' 'MASERATI'
+ 'CADILLAC' 'PEUGEOT' 'RENAULT' 'SCION' 'INFINITI' 'ALFA ROMEO' 'SKODA'
+ 'MERCURY' 'LANCIA' 'ACURA' 'HUMMER' 'SAAB' 'GREATWALL' 'MOSKVICH'
+ 'FERRARI' 'ZAZ' 'SEAT' 'BENTLEY' 'HAVAL' 'SATURN' 'ROLLS-ROYCE']
+
+Column: Model
+['CLA 250' 'Actyon' 'ML 350' ... 'RAV 4 SUPER!!!' 'Sonata blue edition'
+ 'X-Trail gt']
+
+Column: Prod. year
+[2021. 1987. 2008. 1990. 2007. 2018. 2010. 2001. 1992. 2012. 2003. 2005.
+ 2020. 2019. 2022. 2015. 2009. 2000. 1989. 2014. 2004. 1993. 2016. 2006.
+ 2002. 1986. 1994. 1991. 1998. 2017. 1999. 1996. 1997. 1995. 2013. 2011.
+ 1964. 1985. 1988. 1984. 1981. 1983. 1982. 1943. 1965. 1980.]
+
+Column: Category
+['Sedan' 'Jeep' 'Minivan' 'Coupe' 'Universal' 'Hatchback' 'Goods wagon'
+ 'Microbus' 'Pickup' 'Cabriolet' 'Limousine']
+
+Column: Leather interior
+['Yes' 'No']
+
+Column: Fuel type
+['Petrol' 'Diesel' 'LPG' 'Hybrid' 'CNG' 'Plug-in Hybrid' 'Hydrogen']
+
+Column: Engine volume
+[2.         1.6        3.5        2.5        5.         2.2
+ 2.8        1.4        3.2        1.8        2.4        4.2
+ 2.3        3.         1.5        3.3        4.6        4.7
+ 4.4        1.3        2.9        2.7        1.7        5.7
+ 1.2        4.5        1.         0.7        2.30179172 3.6
+ 1.9        3.8        3.4        3.7        4.         6.3
+ 5.5        6.         4.8        0.8        5.6        6.7
+ 2.6        1.1        6.2        4.3        5.9        5.4
+ 0.6        5.3        0.9        2.1        5.2        5.8
+ 6.4        3.9       ]
+
+Column: Mileage
+[718400.  10573. 386300. ...  44000.  85481. 185217.]
+
+Column: Cylinders
+[ 4.  6.  8.  5. 10.  2.  1.  9. 12.  3.  7. 16. 14.]
+
+Column: Gear box type
+['Automatic' 'Tiptronic' 'Manual' 'Variator']
+
+Column: Drive wheels
+['Front' '4x4' 'Rear']
+
+Column: Doors
+['4' '2' '>5']
+
+Column: Wheel
+['Left wheel' 'Right-hand drive']
+
+Column: Color
+['White' 'Blue' 'Silver' 'Red' 'Orange' 'Grey' 'Black' 'Beige' 'Sky blue'
+ 'Brown' 'Yellow' 'Carnelian red' 'Pink' 'Purple' 'Green' 'Golden']
+
+Column: Airbags
+[12.  4.  0.  8.  7. 10.  2.  6. 16.  1.  3.  9. 11.  5. 13. 15. 14.]
+count    1.460600e+04
+mean     1.827784e+04
+std      2.183185e+05
+min      1.000000e+00
+25%      5.331000e+03
+50%      1.289000e+04
+75%      2.132600e+04
+max      2.630750e+07
+Name: Price, dtype: float64
+count    14606.000000
+mean      2010.073326
+std          9.342252
+min       1943.000000
+25%       2004.000000
+50%       2011.000000
+75%       2018.000000
+max       2022.000000
+Name: Prod. year, dtype: float64
+
+Column: ID
+[45813960. 45730073. 45787895. ... 45772050. 45803936. 45619576.]
+
+Column: Price
+[5.49000e+02 4.12810e+04 1.56810e+04 3.68990e+04 1.52890e+04 8.46700e+03
+ 1.44260e+04 1.30000e+04 2.58100e+04 3.70060e+04 7.21300e+03 1.25440e+04
+ 4.70100e+03 2.13260e+04 1.00000e+02 3.00000e+01 4.86100e+03 7.06000e+02
+ 2.00000e+02 6.27200e+03 8.78100e+03 1.94440e+04 4.39050e+04 1.16040e+04
+ 4.32780e+04 2.03850e+04 2.10120e+04 2.16390e+04 3.38230e+04 2.50890e+04
+ 1.30000e+02 2.11810e+04 1.88170e+04 2.65910e+04 4.54730e+04 4.39100e+03
+ 1.05060e+04 3.66920e+04 1.41130e+04 5.64500e+03 9.41000e+02 3.05830e+04
+ 2.35210e+04 4.67280e+04 1.25220e+04 2.82000e+02 4.40000e+04 2.85390e+04
+ 2.37030e+04 2.47750e+04 2.45430e+04 1.57000e+02 1.03490e+04 3.76300e+03
+ 8.15400e+03 1.93060e+04 1.72490e+04 4.70400e+03 3.62310e+04 1.88200e+03
+ 6.42900e+03 3.07340e+04 1.48340e+04 1.33300e+03 1.69000e+04 3.09310e+04
+ 2.50900e+03 2.63430e+04 3.29300e+03 4.07700e+03 1.37990e+04 2.28940e+04
+ 3.92000e+03 2.61800e+04 4.00000e+03 2.97930e+04 2.25800e+04 1.36420e+04
+ 3.60700e+03 1.19170e+04 1.85310e+04 1.40620e+04 7.84000e+03 1.31720e+04
+ 1.78760e+04 3.14000e+02 1.85030e+04 7.84000e+02 4.70000e+02 1.75620e+04
+ 2.32070e+04 3.13600e+03 1.88000e+02 1.82400e+04 2.55970e+04 6.27000e+02
+ 3.45000e+03 2.22660e+04 2.75980e+04 1.09760e+04 3.76330e+04 9.87900e+03
+ 8.31100e+03 7.05600e+03 9.40800e+03 3.07500e+04 2.72940e+04 1.38770e+04
+ 1.49000e+03 3.60000e+03 1.92960e+04 1.80000e+04 1.12900e+04 5.20900e+03
+ 4.54700e+03 1.00360e+04 2.89090e+04 1.06630e+04 5.48820e+04 9.72200e+03
+ 2.97900e+03 1.42690e+04 5.01780e+04 3.85740e+04 2.17960e+04 5.61360e+04
+ 3.50050e+04 8.15100e+03 1.56800e+03 8.62000e+02 4.11930e+04 1.80330e+04
+ 1.66210e+04 2.19530e+04 2.90870e+04 1.55000e+04 3.92000e+02 9.41800e+03
+ 2.66570e+04 3.58460e+04 1.01900e+03 9.09500e+03 6.90000e+03 1.18640e+04
+ 1.28610e+04 1.99240e+04 6.00000e+03 1.56240e+04 4.23370e+04 7.52700e+03
+ 1.34850e+04 1.22310e+04 2.79110e+04 2.76540e+04 6.89900e+03 2.82880e+04
+ 1.09140e+04 2.43000e+03 3.60650e+04 9.25200e+03 2.33040e+04 3.51240e+04
+ 1.76940e+04 3.00000e+00 2.06980e+04 4.23400e+03 2.41480e+04 4.70380e+04
+ 2.11090e+04 1.50530e+04 1.41100e+03 1.20740e+04 3.44060e+04 9.00000e+01
+ 1.81890e+04 2.90100e+03 2.52990e+04 4.39520e+04 5.33100e+03 3.71630e+04
+ 1.01920e+04 1.64600e+03 5.48800e+03 4.07690e+04 1.70420e+04 2.57290e+04
+ 8.32000e+03 3.50000e+03 9.94800e+03 5.76980e+04 1.48970e+04 4.35450e+04
+ 1.63580e+04 9.56500e+03 4.29650e+04 1.96010e+04 9.40830e+04 2.02660e+04
+ 1.94160e+04 3.09060e+04 2.66600e+03 5.01800e+03 1.73000e+04 8.50000e+03
+ 1.80300e+03 2.35200e+03 6.00000e+01 3.13610e+04 1.69350e+04 9.40000e+01
+ 1.09800e+03 4.69190e+04 1.47400e+04 3.08910e+04 1.97570e+04 1.68790e+04
+ 4.48650e+04 1.88260e+04 1.59940e+04 2.80000e+03 3.43870e+04 4.00000e+01
+ 3.81820e+04 1.53670e+04 3.29290e+04 2.44620e+04 8.64300e+03 1.71580e+04
+ 1.69540e+04 2.00710e+04 1.91300e+04 3.71250e+04 1.81170e+04 5.45680e+04
+ 2.90000e+03 1.77000e+04 1.50000e+04 1.22560e+04 1.00000e+00 1.63080e+04
+ 4.70420e+04 2.02280e+04 3.82170e+04 2.03800e+03 2.72590e+04 1.08730e+04
+ 1.68940e+04 2.85230e+04 2.50000e+04 1.99140e+04 4.81960e+04 2.32040e+04
+ 9.75600e+03 5.17500e+03 3.44970e+04 2.88300e+04 5.95900e+03 2.13950e+04
+ 1.27200e+04 5.92720e+04 5.80180e+04 4.65340e+04 4.04560e+04 6.58600e+03
+ 1.39560e+04 2.97740e+04 2.50000e+01 3.52690e+04 2.00050e+04 2.20000e+02
+ 1.57180e+04 2.70650e+04 2.07860e+04 4.22180e+04 4.20000e+03 1.20000e+04
+ 8.93800e+03 4.85340e+04 2.97770e+04 3.84000e+04 1.97070e+04 2.82250e+04
+ 4.26510e+04 1.44540e+04 7.00000e+01 4.32160e+04 8.46750e+04 7.99700e+03
+ 4.05560e+04 2.40920e+04 2.71900e+04 1.55240e+04 8.38600e+03 4.92370e+04
+ 8.67400e+03 7.68300e+03 1.14120e+04 3.20450e+04 2.21100e+04 1.28580e+04
+ 3.50000e+01 2.19500e+03 2.74400e+03 2.02370e+04 3.84450e+04 3.48450e+04
+ 3.76110e+04 5.10750e+04 3.60680e+04 2.74630e+04 1.11330e+04 4.41340e+04
+ 2.72840e+04 1.30000e+03 3.00000e+03 4.50000e+01 3.05800e+03 3.52370e+04
+ 1.82080e+04 3.97970e+04 1.05150e+04 3.19880e+04 2.77550e+04 5.80200e+03
+ 5.31540e+04 2.05260e+04 2.65940e+04 2.03820e+04 1.40000e+04 1.18860e+04
+ 3.54380e+04 6.74300e+03 1.19200e+04 3.49800e+04 2.29470e+04 4.47240e+04
+ 7.21300e+04 3.44190e+04 2.38340e+04 3.45000e+04 1.45830e+04 5.00370e+04
+ 2.34140e+04 5.12250e+04 2.50860e+04 5.89300e+03 1.96000e+03 6.30000e+01
+ 1.53230e+04 2.06100e+04 6.11500e+03 1.30150e+04 4.45230e+04 1.72486e+05
+ 1.37000e+04 2.57160e+04 8.62430e+04 1.86600e+04 2.91660e+04 2.50000e+03
+ 8.00000e+03 4.10550e+04 6.47600e+03 1.20000e+02 4.59280e+04 2.75040e+04
+ 1.80450e+04 2.27400e+03 3.59020e+04 1.62890e+04 3.92010e+04 3.16750e+04
+ 2.70000e+04 2.14420e+04 7.46400e+03 6.99350e+04 2.91630e+04 7.22200e+03
+ 1.19920e+04 2.57440e+04 1.23880e+04 4.38150e+04 2.57190e+04 4.84030e+04
+ 5.30000e+03 9.50000e+02 3.04200e+04 4.49430e+04 3.42400e+04 2.60300e+04
+ 4.70000e+01 3.53090e+04 7.77750e+04 2.25490e+04 2.80000e+04 1.91210e+04
+ 5.00000e+01 1.31500e+04 3.48770e+04 2.30000e+03 2.30600e+04 3.94580e+04
+ 9.40000e+03 5.50000e+03 1.67660e+04 3.26150e+04 3.48110e+04 8.31070e+04
+ 1.00000e+04 1.56120e+04 8.00600e+03 1.79000e+04 4.38680e+04 2.54020e+04
+ 5.86500e+03 2.78890e+04 7.99710e+04 1.13680e+04 3.82600e+04 8.78110e+04
+ 1.54700e+04 2.45590e+04 3.70000e+04 1.72500e+03 2.05420e+04 3.12480e+04
+ 2.18050e+04 1.10000e+04 1.17600e+03 3.65670e+04 1.74050e+04 6.50000e+03
+ 4.47520e+04 1.00355e+05 3.53440e+04 2.37340e+04 3.00000e+02 8.15390e+04
+ 2.58700e+03 4.72010e+04 1.11490e+04 4.09260e+04 6.58300e+03 2.65000e+04
+ 2.31290e+04 1.75000e+04 1.96570e+04 1.72270e+04 3.41080e+04 2.94790e+04
+ 3.70000e+02 5.00180e+04 1.95470e+04 8.00000e+04 3.09500e+04 7.00000e+03
+ 1.76340e+04 6.42900e+04 4.98580e+04 7.05620e+04 4.04710e+04 3.10470e+04
+ 4.00570e+04 3.80000e+04 1.25000e+04 4.42470e+04 1.97360e+04 7.37000e+03
+ 1.83840e+04 2.71620e+04 4.98640e+04 1.49500e+04 7.20000e+03 4.89980e+04
+ 1.03810e+04 1.70350e+04 3.41020e+04 3.79470e+04 2.51000e+02 4.56330e+04
+ 1.58500e+04 2.19870e+04 4.45420e+04 1.67530e+04 5.08050e+04 1.08200e+04
+ 6.27220e+05 5.00000e+02 3.98290e+04 2.60000e+03 1.93840e+04 2.11690e+04
+ 1.81240e+04 5.17460e+04 2.67010e+04 1.79420e+04 3.60000e+04 8.20970e+04
+ 1.52100e+04 4.70000e+03 1.03491e+05 9.50000e+03 3.45720e+04 8.00000e+01
+ 3.67330e+04 7.18800e+03 1.37680e+04 2.62620e+04 3.68270e+04 2.58160e+04
+ 7.84030e+04 3.05170e+04 8.07500e+03 4.41660e+04 5.15230e+04 2.85920e+04
+ 3.23020e+04 7.52660e+04 2.01710e+04 4.73770e+04 6.98100e+03 6.98070e+04
+ 1.94820e+04 9.00000e+03 4.38800e+04 3.17720e+04 1.68690e+04 1.64800e+04
+ 1.73460e+04 2.07770e+04 1.93690e+04 3.34940e+04 4.17200e+04 2.43020e+04
+ 1.33280e+04 3.88940e+04 1.52920e+04 1.14470e+04 5.95000e+03 2.10090e+04
+ 2.20000e+03 1.83620e+04 4.06880e+04 1.89480e+04 5.07670e+04 3.74760e+04
+ 8.37700e+03 1.82110e+04 4.80480e+04 1.42790e+04 4.45330e+04 5.19650e+04
+ 3.35380e+04 1.17600e+04 8.62400e+03 1.50000e+02 8.14450e+04 1.06970e+04
+ 4.98890e+04 3.10820e+04 2.73750e+04 5.28560e+04 2.55910e+04 1.40810e+04
+ 1.36580e+04 1.25000e+02 2.58890e+04 2.69710e+04 2.88520e+04 2.85000e+03
+ 2.11700e+03 1.67780e+04 2.16990e+04 5.06510e+04 1.40690e+04 3.14490e+04
+ 1.74840e+04 9.54300e+03 1.52000e+04 3.13170e+04 2.75910e+04 2.80590e+04
+ 1.35890e+04 3.35750e+04 1.61510e+04 4.86970e+04 3.75640e+04 1.26000e+04
+ 4.90580e+04 2.00000e+01 2.54560e+04 4.51600e+04 6.89500e+03 1.56770e+04
+ 5.80000e+03 1.07841e+05 6.52300e+03 1.34540e+04 1.60000e+04 1.51320e+04
+ 7.36980e+04 2.55120e+04 1.27000e+05 3.38700e+04 3.55570e+04 1.28490e+04
+ 2.42390e+04 2.68040e+04 4.62580e+04 4.27640e+04 1.39530e+04 1.67410e+04
+ 5.13730e+04 4.24000e+04 6.12500e+03 2.38280e+04 2.23570e+04 6.27220e+04
+ 2.67700e+04 2.67200e+04 4.32800e+03 1.34820e+04 3.94990e+04 7.99500e+03
+ 5.38720e+04 1.56490e+04 1.49000e+04 1.31716e+05 1.37710e+04 1.70230e+04
+ 3.82290e+04 4.50000e+03 4.28450e+04 2.21660e+04 2.19180e+04 8.77800e+03
+ 4.58250e+04 2.02970e+04 1.95790e+04 4.17100e+04 2.11030e+04 3.80600e+04
+ 4.45450e+04 1.39000e+04 3.03510e+04 7.15000e+03 1.23000e+04 1.38080e+04
+ 1.37770e+04 1.35000e+04 3.24120e+04 7.68350e+04 1.54830e+04 1.74150e+04
+ 4.30620e+04 1.43850e+04 2.25020e+04 1.25400e+03 1.21430e+04 1.06600e+04
+ 2.12850e+04 4.42130e+04 7.50000e+03 1.14154e+05 3.12110e+04 1.00320e+04
+ 2.85320e+04 6.24100e+03 1.33410e+04 3.80000e+03 1.83460e+04 3.35000e+04
+ 3.99000e+02 2.82200e+03 1.64110e+04 2.74410e+04 4.09830e+04 1.04920e+04
+ 2.61960e+04 1.69600e+04 2.16520e+04 1.47397e+05 1.49590e+04 5.18400e+03
+ 4.50090e+04 4.74080e+04 4.64140e+04 8.71120e+04 2.00680e+04 4.57340e+04
+ 2.14920e+04 1.86690e+04 1.77470e+04 2.47090e+04 4.34350e+04 2.90940e+04
+ 8.00000e+02 2.63240e+04 2.40290e+04 1.00000e+03 4.00920e+04 3.50430e+04
+ 2.56380e+04 2.44150e+04 1.10000e+02 2.77700e+04 3.12200e+04 1.15410e+04
+ 2.26930e+04 4.35920e+04 4.03400e+04 4.63200e+03 4.26920e+04 2.25670e+04
+ 3.55700e+04 2.30820e+04 5.26870e+04 9.69150e+04 3.67740e+04 1.86880e+04
+ 4.16540e+04 1.37930e+04 4.30000e+04 1.85000e+04 6.14400e+03 2.87550e+04
+ 1.25600e+04 3.87620e+04 1.40000e+02 1.31780e+04 1.37640e+04 2.83570e+04
+ 7.27580e+04 4.54450e+04 1.32910e+04 2.39940e+04 9.00000e+02 6.80000e+03
+ 4.21710e+04 2.34080e+04 3.39080e+04 5.15890e+04 5.95860e+04 2.68140e+04
+ 3.58990e+04 1.50630e+04 8.90000e+03 1.51250e+04 3.73200e+04 1.18950e+04
+ 4.71200e+04 2.43270e+04 1.28000e+04 4.20240e+04 1.25400e+04 4.15780e+04
+ 2.33890e+04 1.33284e+05 1.86470e+04 4.85660e+04 4.20000e+04 6.58580e+04
+ 8.12250e+04 3.79840e+04 4.97510e+04 1.52570e+04 1.11332e+05 1.13000e+04
+ 3.88090e+04 2.84230e+04 4.77570e+04 4.01420e+04 1.20000e+03 2.86080e+04
+ 2.32390e+04 1.85190e+04 4.54360e+04 3.49050e+04 2.20000e+04 1.86790e+04
+ 6.89940e+04 2.50000e+02 1.70540e+04 3.35560e+04 1.62830e+04 7.11900e+03
+ 5.73900e+03 1.90000e+03 4.48430e+04 3.37070e+04 4.18860e+04 2.16830e+04
+ 1.61600e+04 1.84220e+04 2.64910e+04 3.61660e+04 3.29730e+04 7.10000e+03
+ 1.50350e+04 1.10990e+04 4.12210e+04 3.40740e+04 3.98910e+04 1.42290e+04
+ 1.68500e+04 1.34950e+04 4.96800e+03 2.15000e+04 1.33660e+04 3.32430e+04
+ 8.06510e+04 9.94400e+04 1.30680e+04 1.59910e+04 3.92260e+04 2.96330e+04
+ 2.35180e+04 3.30000e+04 3.59080e+04 4.52100e+04 4.56740e+04 3.62190e+04
+ 3.95590e+04 9.93800e+03 1.78440e+04 2.85890e+04 3.72910e+04 2.13300e+04
+ 9.26100e+03 9.83200e+03 3.88880e+04 3.00060e+04 2.28430e+04 2.31010e+04
+ 4.91740e+04 1.84000e+04 5.00000e+03 2.73560e+04 2.75000e+04 2.52640e+04
+ 1.64000e+04 1.23330e+05 3.02820e+04 1.11770e+04 2.36020e+04 5.33140e+04
+ 4.35760e+04 1.19172e+05 1.58720e+04 2.79240e+04 2.08000e+04 2.18930e+04
+ 8.91030e+04 2.35360e+04 1.54230e+04 3.24090e+04 3.30000e+03 4.88730e+04
+ 3.01510e+04 2.10000e+04 4.33600e+04 1.89830e+04 2.74350e+04 3.10000e+01
+ 3.05960e+04 3.15810e+04 1.44261e+05 3.02510e+04 2.44580e+04 3.20350e+04
+ 1.14468e+05 3.57360e+04 4.03900e+04 2.22690e+04 1.47000e+04 3.25780e+04
+ 1.16500e+04 2.19000e+04 3.46070e+04 1.55300e+04 1.75090e+04 7.31700e+03
+ 2.91690e+04 2.82410e+04 2.60170e+04 2.90750e+04 2.89800e+04 9.06000e+03]
+
+Column: Levy
+[ 891.          730.          898.41767627  777.          836.
+  639.         1399.          697.          928.         1282.
+  975.         1296.          761.         1077.          779.
+  831.         1413.          528.          642.         1018.
+ 2108.          474.         1267.         1759.         1646.
+  585.         1811.         1024.          781.         2455.
+  765.          917.         1451.          879.         1111.
+  501.          382.         1091.          746.          687.
+ 1141.          880.         1357.          586.         1249.
+  637.         1172.          333.          583.          966.
+  530.          898.43733783  934.          862.          394.
+  900.         1426.          924.          502.          584.
+ 1347.          640.          769.          753.         1094.
+  780.          770.          986.          919.          724.
+  399.         2377.          531.          447.          614.
+ 1053.          308.         1017.          363.          810.
+  645.          764.          629.          690.         1537.
+  790.         1493.         1514.          707.         1668.
+  609.          579.          289.         1286.         1304.
+  446.         1750.         1236.          691.          503.
+  789.          833.         1324.         1624.          463.
+  696.         1058.         1356.         1047.         1079.
+ 1275.          832.         1528.          456.         1481.
+ 1104.          574.          259.          562.         1598.
+  595.         1202.         1515.         1194.         1363.
+  448.         2265.          475.          397.         1993.
+  749.         1277.          419.         2476.          431.
+  751.          603.         1211.         1185.         1099.
+ 7536.          877.         1273.         1266.         1205.
+ 1246.          890.         1051.          915.          799.
+ 1055.         2628.          345.         2971.         4860.
+ 1083.          784.          521.          353.         1080.
+  760.          971.          834.         1036.         1095.
+ 1951.         2566.         2297.         1292.          247.
+ 1342.         1855.          518.          723.         1850.
+ 1327.          607.          830.         2266.          738.
+ 1604.         1307.         1793.         3008.          650.
+  843.         1714.         2505.         1086.          638.
+ 1108.          473.         1438.         1578.         1869.
+ 1090.         1659.         2225.         1935.          930.
+  961.         1325.          641.         1268.          875.
+  441.         1109.         1820.          988.          442.
+ 1466.         2670.          551.         1588.         1028.
+  874.         1768.         1641.          420.         1138.
+ 1203.         1511.         2056.         1533.         1174.
+  683.         1360.          911.         1680.         1317.
+ 1032.          729.         1228.         1288.         2467.
+ 3571.         1664.         5332.         4283.         1190.
+  400.         1408.         1031.         1505.          402.
+  271.          949.          505.          490.         1405.
+ 1016.         1841.          978.         1437.         1832.
+  681.         1468.         1948.         2858.         1148.
+ 1076.         1998.         1586.         1045.          424.
+  155.         1308.         1361.         2410.         1688.
+ 2421.         1872.         1391.           87.          605.
+  488.          965.         1197.         2156.         1836.
+  694.          732.          481.          565.         1054.
+  800.          658.          893.          827.         1470.
+ 1817.          889.         2151.         1176.         1011.
+ 1661.         1195.         1845.         1113.         1620.
+ 1885.         1723.         1488.         1888.        ]
+
+Column: Manufacturer
+['HYUNDAI' 'TOYOTA' 'MERCEDES-BENZ' 'HONDA' 'BMW' 'FORD' 'LEXUS'
+ 'CHEVROLET' 'AUDI' 'SKODA' 'SSANGYONG' 'MITSUBISHI' 'OPEL' 'VOLKSWAGEN'
+ 'JAGUAR' 'KIA' 'NISSAN' 'DODGE' 'GAZ' 'SUBARU' 'MAZDA' 'ALFA ROMEO'
+ 'PEUGEOT' 'FIAT' 'VAZ' 'JEEP' 'PORSCHE' 'ACURA' 'SUZUKI' 'VOLVO'
+ 'CADILLAC' 'DAEWOO' 'DAIHATSU' 'PONTIAC' 'GMC' 'MINI' 'LINCOLN' 'CITROEN'
+ 'RENAULT' 'UAZ' 'BUICK' 'LAND ROVER' 'INFINITI' 'FERRARI' 'CHRYSLER'
+ 'ASTON MARTIN' 'SCION' 'LAMBORGHINI' 'SEAT' 'BENTLEY' 'ROLLS-ROYCE'
+ 'HUMMER']
+
+Column: Model
+['Santa FE' 'Sonata' 'Prius' 'E 350' 'Step Wagon' '128' 'Sprinter' '330'
+ 'SLK 350 300' 'RAV 4' 'Mustang' 'GX 470' 'Camry' 'Lacetti' 'A6'
+ 'Veloster' 'Prius C' 'B 170 Edition One' 'Octavia' 'Tucson' 'Actyon'
+ '328' 'C 300' 'Aqua' 'ML 280' 'ML 350' 'A7' 'Accent' 'Cruze' 'S 55 5.5'
+ '335 M paket' 'Colt' 'Q7' 'Astra' 'Routan SEL' 'Elantra' 'Captiva'
+ 'Sonata LIMITED' 'C 280' 'Fusion' 'XF' 'Sonata sport' 'FIT' 'GLA 250'
+ 'X5' 'Transit' 'GLS 450' 'RX 400' 'Korando' 'Aveo' 'Carnival' 'Cefiro'
+ 'Avenger' 'CT 200h' 'CC' 'Elysion' '20' 'Optima' 'Outback' '323 F'
+ 'Vectra' 'H1' 'Accord' 'Sonata Limited' 'Volt' 'RX 450' 'Pajero' 'Tiida'
+ 'Q5' '325' 'Focus' '323' '147' 'Camry Se' 'C 180' '407' '500L LONG'
+ '2105' 'Versa' 'A4 S4' 'X1' 'Compass' 'Micra' 'Grandeur' 'GX 460' 'Jetta'
+ 'Viano' 'Cayenne' 'E 320' 'Forester' '520' 'TL' 'X-Terra' 'Highlander'
+ 'A4' 'Tiguan' 'i20' 'Caliber' 'Vito' 'Swift' 'Equinox' 'CX-9' 'Genesis'
+ 'E 300' 'S70' 'Civic' '525' 'Eclipse' 'ATS' '550' 'E 240' 'Passat' '535'
+ 'Juke' 'C-MAX SE' 'SLK 230' 'Airtrek' 'Legacy' 'GLE 350' 'RX 350' '650'
+ 'Avalon' 'Outlander SE' 'Corolla Im' 'Aqua G klas' 'Astra H' 'Camry SE'
+ 'CLK 200' 'Orlando' 'CHR' 'Grand Cherokee' 'Malibu' '528' 'Jetta se'
+ 'C 240 W 203' 'C 250 AMG-PAKET-1,8' 'Spark' 'Prius V ALPINA' 'Touareg'
+ 'SX4' 'Cherokee' 'REXTON' 'Delica 5' 'X5 X-Drive' 'Teana' 'E 220'
+ 'Tundra' 'Move' 'Explorer' 'Escudo' 'Escape' 'Note' 'CX-5' 'ML 270' '616'
+ 'Quest' 'Mazda 3' 'Verisa' 'Civic Hybrid' 'Golf' 'C 200' 'Tucson SE'
+ 'X-Trail' 'Cerato' 'Demio' '530' 'G6' 'LS 460' 'Camaro' 'CTS' '335'
+ 'Corolla' '2106' 'March' '318' 'Zafira' 'C 250' 'Cr-v' 'C-MAX' 'Edix'
+ 'Juke nismo' 'Acadia' 'Focus se' 'Insight EX' 'S 550' 'GL 450' 'Cooper'
+ 'Sienna' 'Sonic' 'Grand Cherokee LAREDO' 'Countryman' 'Vitara' 'Tacoma'
+ 'Fiesta' 'Insight' 'Mazda 5' 'RC F' 'ML 350 ML350' '207' 'Crossland X'
+ 'Space Runner' 'Kicks SR' 'Astra G' 'IX35' 'Town Car' 'C1' 'CLA 250'
+ 'S 350' 'Stream' 'Ioniq' 'I30' 'Combo' '428' 'Golf TDI' 'Mondeo' 'Clio'
+ 'Grand Vitara' 'YRV' 'Maxima' 'Viano Ambiente' 'XV' 'Impala' 'E 500' 'X6'
+ 'MPV' 'Cami' 'Ist' 'Ridgeline' 'CT 200h 1.8' '745 i' 'Camry XLE' 'Vitz'
+ 'M4' 'Optima hybrid' 'Camry HYBRID' 'CT 200h F SPORT'
+ 'Cooper S Cabrio R56' 'C-MAX HYBRID' 'Outlander sport' 'XE' 'Golf 3'
+ 'Scirocco' 'Fusion 1.6' 'LX 470' 'Cinquecento' 'TT' 'GLK 300' '31514'
+ '4Runner' '270' 'G 300' 'Sportage' 'Matiz' 'NX 300' 'Scenic' 'Rx-8'
+ 'Taurus' '530 GT' 'CLK 320' 'Century' 'S 500' 'Corolla verso' 'I'
+ 'Tacoma TRD Off Road' 'Estima' 'Outlander' 'Fusion phev' 'RX 300'
+ 'Megane 1.5CDI' '316' 'Sonata Hibrid' 'Avalanche' 'RAV 4 SPORT' '807'
+ 'Caddy' 'Liberty' 'Range Rover' 'IS 300' 'MDX' 'Challenger'
+ '640 GRAN-COUPE' 'Fusion Hybrid' 'Cougar' 'B 170' 'HS 250h' 'Patrol'
+ 'Getz' 'Sonata SPORT' 'Yaris' '206' '320' 'Rogue' '318 318' 'Escape 3.0'
+ 'FX35' '325 CI' '1300' '456' 'Corsa Corsa' 'C 220' 'A 190' 'Skyline'
+ 'Jimny' 'ML 320' 'C 240' 'Pacifica' '740' 'Dart Limited' '21 3.0'
+ 'Passat R-line' 'Impreza G4' 'Freelander' 'Fusion TITANIUM' 'Malibu LT'
+ 'Vento' 'E 200' '500' 'Transit T330' 'Golf GTI' 'Prius V' 'ES 350' '3796'
+ 'Corsa' 'Forte' 'Premacy' 'Smart' 'E 270' 'Land Cruiser Prado' 'FX45'
+ 'Optima ex' 'Cadenza' 'CLK 200 kompresor' 'GX 470 SUV 4D (4.7L V8 S'
+ '500 Abarth' 'Malibu Hybrid' 'Encore' 'Presage' 'ISIS' 'Shuttle' 'Hilux'
+ 'BB' 'Virage' 'FIT HYBRYD' 'F-type' 'IS 250' '208' 'CLS 350 AMG' '750'
+ '508' '530 i' 'Camaro RS' 'Murano' 'Elantra SE' 'Altima' 'GL 450 3.0'
+ 'Land Cruiser' 'Elantra GT' 'GLK 350' 'Sprinter MAX' 'Meriva' 'Q50 S Red'
+ 'Fusion SE' 'RX 450 F SPORT' 'Transit Connect' '300' 'Inspire' 'Golf 4'
+ 'macan S' 'Pajero IO' 'Mazda 6 TOURING' 'Vectra B' 'FIT NAVI PREMIUM'
+ 'Mazda 6' 'Countryman S' 'FIT RS MODELI' 'Yaris RS' 'Prius personna'
+ 'CX-7' 'Moco' 'Combo 2001' 'Santa FE Ultimate' '322173' '640' '1000'
+ 'S 430' 'E 220 W210...CDI' 'Sentra' '523' 'CLS 550' 'T3' '428 i' '325 XI'
+ 'C 320' 'CRX' 'B 220' '328 DRIFT CAR' 'Sprinter 315CDI' 'Sienta'
+ 'C 250 luxury' '200' 'tC' 'Sprinter 516' 'Ramcharger' 'ES 300 hybrid'
+ 'CR-Z ?2010' 'Twingo' 'Citan' 'M3' 'Polo' '225' 'Tigra' 'ML 500'
+ 'Corolla S' 'E 280' 'Sorento' 'Avella' 'Fusion Titanium' 'Mirage'
+ 'ML 550 4.7' 'Pajero Mini 2010 ' 'Impreza' 'Rogue Sport' 'XJ' 'EX37'
+ 'C 250 1.8 ?2013' 'Pajero Mini 2008 ' 'Astra gi' 'Scorpio' 'Ractis'
+ 'Traverse' 'Axela' 'Chariot' 'RX 450 HYBRID' 'Fiesta 1.6' 'B-MAX' 'RVR'
+ 'FIT S' 'VOXY' 'Urus' 'C 180 komp' 'Caddy cadi' 'FJ Cruiser' 'Patriot'
+ 'B 200' 'RIO' 'Forester XT' 'Odyssey' 'Land Cruiser 11' 'UP' 'XL7' 'F150'
+ 'GL 550' 'Fabia' 'Volt Full Packet' 'Maverick' 'MKZ hybrid' 'Ranger'
+ 'Discovery IV' 'Fred' '911 meqanika' 'Panda' 'GL 350' 'Vanette' 'Passo'
+ 'Swift Sport' 'Jetta GLI' 'Yaris iA' '240' '2121 (Niva)' 'Jetta 2.0'
+ 'Cruze LT' 'Ibiza' '730' 'Elgrand' 'Touran' 'ML 350 370' '24 10' 'ML 300'
+ 'Astra BERTONE' 'T3 0000' 'GLC 300 GLC coupe' 'E 55' 'Camry sel'
+ 'Cruze L T' 'E 270 4' '911' 'Transit 100LD' '50' 'EcoSport SE'
+ 'E 220 ELEGANCE' 'Aqua S' 'C 230' 'DTS' 'Veloster R-spec' 'CLK 320 AMG'
+ 'CLK 270' 'Outlander SPORT' 'Pajero Mini' '500 46 ml' 'Sintra'
+ 'ML 320 cdi' 'Megane 1.9 CDI' 'Elantra Limited' 'Corolla IM' 'Serena'
+ 'Camry se' '328 i' 'Picanto' 'Mazda 3 SPORT' 'Eclipse ES' 'GLC 250'
+ '3110' 'M6 Gran cupe' 'Alphard' 'PT Cruiser pt cruiser' 'Jetta s' 'Regal'
+ 'CLS 55 AMG' 'Camry LE' 'X6 Limited' 'IS 200' 'Megane 19' 'Corolla 04'
+ 'GL 320' 'S-type' '335 335i' 'TERRAIN' 'G 55 AMG' 'A8' 'LX 570'
+ 'Transit Connect ?2014' 'A3' 'X3' 'Allroad' '520 Vanos' 'Wingroad'
+ 'Demio mazda2' '535 i' 'Avalon LIMITED' 'Mulsanne' 'C-MAX PREMIUM'
+ 'Daimler' '230' 'Phantom' '128 M tech' '325 i' 'A4 B6' 'Outlander Sport'
+ 'B 200 Turbo' 'NX 200' 'Juke Turbo' 'Astra GTC 1.9 turbo dies' 'H3'
+ 'Sprinter 313CDI' 'C 32 AMG' 'Frontier' 'Astra CNG'
+ 'Range Rover Evoque ?2016' 'FIT Sport' 'Jetta SE' 'M5' 'L 200' 'Montero'
+ 'M6' 'H1 grandstarex' 'Range Rover Velar' '406' 'E 220 211' 'Kizashi'
+ 'Passat Se' 'Q5 Prestige' 'Prius s' 'Aqua G' 'CLK 230' 'Altezza' 'Venza'
+ 'Z4 3,0 SI' 'Grand HIACE' 'Doblo' 'Camry sport' '535 i xDrive'
+ 'Tourneo Connect' 'GL 320 bluetec' 'S80' 'Ignis' 'Transit ford' 'Ceed'
+ 'ES 300' 'Discovery' 'CL 55 AMG KOMPRESSOR' 'C 63 AMG' 'Hr-v EX'
+ 'Jetta TDI' 'XC90' 'CL 550' 'Vito 115 CDI' 'Punto' '3.18E+38' '500 sport'
+ 'Celica' 'RS7' 'Pathfinder' 'Minica' 'Accent SE' 'IS 250 ?2011' 'E 430'
+ 'A 170' 'Vaneo' 'CLK 430' 'RX 400 RESTAILING' 'Taurus X' 'Gentra'
+ 'C 320 AMG' 'E 320 bluetec' 'Qashqai SPORT' '500X' 'Catera' 'Neon'
+ 'Phaeton' 'Vectra c' 'RX 400 HYBRID' 'Prius 1.8' 'Transit S' 'Megane']
+
+Column: Prod. year
+[2021 1987 2008 1990 2007 2018 2010 2001 1992 2012 2003 2005 2020 2019
+ 2022 2015 2009 2000 1989 2014 2004 1993 2016 2006 2002 1986 1994 1991
+ 1998 2017 1999 1996 1997 1995 2013 2011 1964 1985 1988 1984 1981 1983
+ 1982]
+
+Column: Category
+['Jeep' 'Sedan' 'Hatchback' 'Minivan' 'Coupe' 'Microbus' 'Cabriolet'
+ 'Goods wagon' 'Universal' 'Limousine' 'Pickup']
+
+Column: Leather interior
+['Yes' 'No']
+
+Column: Fuel type
+['Diesel' 'Hybrid' 'Petrol' 'LPG' 'CNG' 'Plug-in Hybrid']
+
+Column: Engine volume
+[2.2        2.4        1.8        2.         3.5        3.
+ 2.5        4.7        4.6        1.6        1.5        1.7
+ 6.2        5.5        1.3        4.         2.8        4.4
+ 3.6        3.2        1.4        3.3        3.7        2.7
+ 2.3        2.6        1.         4.8        5.7        0.7
+ 1.2        1.9        5.         2.29091651 1.1        2.9
+ 5.3        3.9        4.5        3.8        0.6        4.3
+ 4.2        3.1        2.1        0.8        3.4        0.5
+ 6.8        6.3        7.3       ]
+
+Column: Mileage
+[ 69852. 659325. 238600. ... 285100. 255033.  35654.]
+
+Column: Cylinders
+[ 4.  6.  8.  5. 10.  2.  1.  9. 12.  3.  7. 16.]
+
+Column: Gear box type
+['Automatic' 'Variator' 'Manual' 'Tiptronic']
+
+Column: Drive wheels
+['Front' '4x4' 'Rear']
+
+Column: Doors
+['4' '2' '>5']
+
+Column: Wheel
+['Left wheel' 'Right-hand drive']
+
+Column: Color
+['Grey' 'Black' 'Silver' 'Red' 'White' 'Blue' 'Brown' 'Carnelian red'
+ 'Beige' 'Orange' 'Green' 'Golden' 'Sky blue' 'Purple' 'Yellow' 'Pink']
+
+Column: Airbags
+[12.  4.  0.  8.  7. 10.  2.  6. 16.  1.  3.  9. 11.  5. 13. 15. 14.]
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+...........................................................................
+TRAIN DATA
+['Santa FE' 'Sonata' 'Prius' 'E 350' 'Step Wagon' '128' 'Sprinter' '330'
+ 'SLK 350 300' 'RAV 4' 'Mustang' 'GX 470' 'Camry' 'Lacetti' 'A6'
+ 'Veloster' 'Prius C' 'B 170 Edition One' 'Octavia' 'Tucson' 'Actyon'
+ '328' 'C 300' 'Aqua' 'ML 280' 'ML 350' 'A7' 'Accent' 'Cruze' 'S 55 5.5'
+ '335 M paket' 'Colt' 'Q7' 'Astra' 'Routan SEL' 'Elantra' 'Captiva'
+ 'Sonata LIMITED' 'C 280' 'Fusion' 'XF' 'Sonata sport' 'FIT' 'GLA 250'
+ 'X5' 'Transit' 'GLS 450' 'RX 400' 'Korando' 'Aveo' 'Carnival' 'Cefiro'
+ 'Avenger' 'CT 200h' 'CC' 'Elysion' '20' 'Optima' 'Outback' '323 F'
+ 'Vectra' 'H1' 'Accord' 'Sonata Limited' 'Volt' 'RX 450' 'Pajero' 'Tiida'
+ 'Q5' '325' 'Focus' '323' '147' 'Camry Se' 'C 180' '407' '500L LONG'
+ '2105' 'Versa' 'A4 S4' 'X1' 'Compass' 'Micra' 'Grandeur' 'GX 460' 'Jetta'
+ 'Viano' 'Cayenne' 'E 320' 'Forester' '520' 'TL' 'X-Terra' 'Highlander'
+ 'A4' 'Tiguan' 'i20' 'Caliber' 'Vito' 'Swift' 'Equinox' 'CX-9' 'Genesis'
+ 'E 300' 'S70' 'Civic' '525' 'Eclipse' 'ATS' '550' 'E 240' 'Passat' '535'
+ 'Juke' 'C-MAX SE' 'SLK 230' 'Airtrek' 'Legacy' 'GLE 350' 'RX 350' '650'
+ 'Avalon' 'Outlander SE' 'Corolla Im' 'Aqua G klas' 'Astra H' 'Camry SE'
+ 'CLK 200' 'Orlando' 'CHR' 'Grand Cherokee' 'Malibu' '528' 'Jetta se'
+ 'C 240 W 203' 'C 250 AMG-PAKET-1,8' 'Spark' 'Prius V ALPINA' 'Touareg'
+ 'SX4' 'Cherokee' 'REXTON' 'Delica 5' 'X5 X-Drive' 'Teana' 'E 220'
+ 'Tundra' 'Move' 'Explorer' 'Escudo' 'Escape' 'Note' 'CX-5' 'ML 270' '616'
+ 'Quest' 'Mazda 3' 'Verisa' 'Civic Hybrid' 'Golf' 'C 200' 'Tucson SE'
+ 'X-Trail' 'Cerato' 'Demio' '530' 'G6' 'LS 460' 'Camaro' 'CTS' '335'
+ 'Corolla' '2106' 'March' '318' 'Zafira' 'C 250' 'Cr-v' 'C-MAX' 'Edix'
+ 'Juke nismo' 'Acadia' 'Focus se' 'Insight EX' 'S 550' 'GL 450' 'Cooper'
+ 'Sienna' 'Sonic' 'Grand Cherokee LAREDO' 'Countryman' 'Vitara' 'Tacoma'
+ 'Fiesta' 'Insight' 'Mazda 5' 'RC F' 'ML 350 ML350' '207' 'Crossland X'
+ 'Space Runner' 'Kicks SR' 'Astra G' 'IX35' 'Town Car' 'C1' 'CLA 250'
+ 'S 350' 'Stream' 'Ioniq' 'I30' 'Combo' '428' 'Golf TDI' 'Mondeo' 'Clio'
+ 'Grand Vitara' 'YRV' 'Maxima' 'Viano Ambiente' 'XV' 'Impala' 'E 500' 'X6'
+ 'MPV' 'Cami' 'Ist' 'Ridgeline' 'CT 200h 1.8' '745 i' 'Camry XLE' 'Vitz'
+ 'M4' 'Optima hybrid' 'Camry HYBRID' 'CT 200h F SPORT'
+ 'Cooper S Cabrio R56' 'C-MAX HYBRID' 'Outlander sport' 'XE' 'Golf 3'
+ 'Scirocco' 'Fusion 1.6' 'LX 470' 'Cinquecento' 'TT' 'GLK 300' '31514'
+ '4Runner' '270' 'G 300' 'Sportage' 'Matiz' 'NX 300' 'Scenic' 'Rx-8'
+ 'Taurus' '530 GT' 'CLK 320' 'Century' 'S 500' 'Corolla verso' 'I'
+ 'Tacoma TRD Off Road' 'Estima' 'Outlander' 'Fusion phev' 'RX 300'
+ 'Megane 1.5CDI' '316' 'Sonata Hibrid' 'Avalanche' 'RAV 4 SPORT' '807'
+ 'Caddy' 'Liberty' 'Range Rover' 'IS 300' 'MDX' 'Challenger'
+ '640 GRAN-COUPE' 'Fusion Hybrid' 'Cougar' 'B 170' 'HS 250h' 'Patrol'
+ 'Getz' 'Sonata SPORT' 'Yaris' '206' '320' 'Rogue' '318 318' 'Escape 3.0'
+ 'FX35' '325 CI' '1300' '456' 'Corsa Corsa' 'C 220' 'A 190' 'Skyline'
+ 'Jimny' 'ML 320' 'C 240' 'Pacifica' '740' 'Dart Limited' '21 3.0'
+ 'Passat R-line' 'Impreza G4' 'Freelander' 'Fusion TITANIUM' 'Malibu LT'
+ 'Vento' 'E 200' '500' 'Transit T330' 'Golf GTI' 'Prius V' 'ES 350' '3796'
+ 'Corsa' 'Forte' 'Premacy' 'Smart' 'E 270' 'Land Cruiser Prado' 'FX45'
+ 'Optima ex' 'Cadenza' 'CLK 200 kompresor' 'GX 470 SUV 4D (4.7L V8 S'
+ '500 Abarth' 'Malibu Hybrid' 'Encore' 'Presage' 'ISIS' 'Shuttle' 'Hilux'
+ 'BB' 'Virage' 'FIT HYBRYD' 'F-type' 'IS 250' '208' 'CLS 350 AMG' '750'
+ '508' '530 i' 'Camaro RS' 'Murano' 'Elantra SE' 'Altima' 'GL 450 3.0'
+ 'Land Cruiser' 'Elantra GT' 'GLK 350' 'Sprinter MAX' 'Meriva' 'Q50 S Red'
+ 'Fusion SE' 'RX 450 F SPORT' 'Transit Connect' '300' 'Inspire' 'Golf 4'
+ 'macan S' 'Pajero IO' 'Mazda 6 TOURING' 'Vectra B' 'FIT NAVI PREMIUM'
+ 'Mazda 6' 'Countryman S' 'FIT RS MODELI' 'Yaris RS' 'Prius personna'
+ 'CX-7' 'Moco' 'Combo 2001' 'Santa FE Ultimate' '322173' '640' '1000'
+ 'S 430' 'E 220 W210...CDI' 'Sentra' '523' 'CLS 550' 'T3' '428 i' '325 XI'
+ 'C 320' 'CRX' 'B 220' '328 DRIFT CAR' 'Sprinter 315CDI' 'Sienta'
+ 'C 250 luxury' '200' 'tC' 'Sprinter 516' 'Ramcharger' 'ES 300 hybrid'
+ 'CR-Z Ã©Â\x86Â¿Ã¦Â\x90Â¬Ã¥Â\x84Â¤Ã©Â\x86Â¿Ã¦Â\x88Â\x93Ã¥Â\x84Â¬Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9eÃ©Â\x86Â¿?2010'
+ 'Twingo' 'Citan' 'M3' 'Polo' '225' 'Tigra' 'ML 500' 'Corolla S' 'E 280'
+ 'Sorento' 'Avella' 'Fusion Titanium' 'Mirage' 'ML 550 4.7'
+ 'Pajero Mini 2010 Ã©Â\x86Â¿Ã®Â\x83Â¼Ã¥Â\x84Â¦Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9bÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¤'
+ 'Impreza' 'Rogue Sport' 'XJ' 'EX37'
+ 'C 250 1.8 Ã©Â\x86Â¿Ã¢Â\x91Â¨Ã¥Â\x84Â¯Ã©Â\x86Â¿Ã§Â\x8aÂªÃ¥Â\x84Â\x9cÃ©Â\x86Â¿?2013'
+ 'Pajero Mini 2008 Ã©Â\x86Â¿Ã®Â\x83Â¼Ã¥Â\x84Â¦Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â\x9bÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¤'
+ 'Astra gi' 'Scorpio' 'Ractis' 'Traverse' 'Axela' 'Chariot'
+ 'RX 450 HYBRID' 'Fiesta 1.6' 'B-MAX' 'RVR' 'FIT S' 'VOXY' 'Urus'
+ 'C 180 komp' 'Caddy cadi' 'FJ Cruiser' 'Patriot' 'B 200' 'RIO'
+ 'Forester XT' 'Odyssey' 'Land Cruiser 11' 'UP' 'XL7' 'F150' 'GL 550'
+ 'Fabia' 'Volt Full Packet' 'Maverick' 'MKZ hybrid' 'Ranger'
+ 'Discovery IV' 'Fred' '911 meqanika' 'Panda' 'GL 350' 'Vanette' 'Passo'
+ 'Swift Sport' 'Jetta GLI' 'Yaris iA' '240' '2121 (Niva)' 'Jetta 2.0'
+ 'Cruze LT' 'Ibiza' '730' 'Elgrand' 'Touran' 'ML 350 370' '24 10' 'ML 300'
+ 'Astra BERTONE' 'T3 0000' 'GLC 300 GLC coupe' 'E 55' 'Camry sel'
+ 'Cruze L T' 'E 270 4' '911' 'Transit 100LD' '50' 'EcoSport SE'
+ 'E 220 ELEGANCE' 'Aqua S' 'C 230' 'DTS' 'Veloster R-spec' 'CLK 320 AMG'
+ 'CLK 270' 'Outlander SPORT' 'Pajero Mini' '500 46 ml' 'Sintra'
+ 'ML 320 cdi' 'Megane 1.9 CDI' 'Elantra Limited' 'Corolla IM' 'Serena'
+ 'Camry se' '328 i' 'Picanto' 'Mazda 3 SPORT' 'Eclipse ES' 'GLC 250'
+ '3110' 'M6 Gran cupe' 'Alphard' 'PT Cruiser pt cruiser' 'Jetta s' 'Regal'
+ 'CLS 55 AMG' 'Camry LE' 'X6 Limited' 'IS 200' 'Megane 19' 'Corolla 04'
+ 'GL 320' 'S-type' '335 335i' 'TERRAIN' 'G 55 AMG' 'A8' 'LX 570'
+ 'Transit Connect Ã©Â\x86Â¿Ã¦Â\x88Â\x93Ã¥Â\x84Â\x9fÃ©Â\x86Â¿Ã¦ÂºÂ¼Ã¥Â\x84Â¢Ã©Â\x86Â¿Ã¦Â¨Â¶Ã¥Â\x84Â¨Ã©Â\x86Â¿?2014'
+ 'A3' 'X3' 'Allroad' '520 Vanos' 'Wingroad' 'Demio mazda2' '535 i'
+ 'Avalon LIMITED' 'Mulsanne' 'C-MAX PREMIUM' 'Daimler' '230' 'Phantom'
+ '128 M tech' '325 i' 'A4 B6' 'Outlander Sport' 'B 200 Turbo' 'NX 200'
+ 'Juke Turbo' 'Astra GTC 1.9 turbo dies' 'H3' 'Sprinter 313CDI' 'C 32 AMG'
+ 'Frontier' 'Astra CNG'
+ 'Range Rover Evoque Ã©Â\x86Â¿Ã§Â\x8aÂªÃ¥Â\x84Â\x9fÃ©Â\x86Â¿Ã¢Â\x99Â\x82Ã¥Â\x84Â®Ã©Â\x86Â¿?2016'
+ 'FIT Sport' 'Jetta SE' 'M5' 'L 200' 'Montero' 'M6' 'H1 grandstarex'
+ 'Range Rover Velar' '406' 'E 220 211' 'Kizashi' 'Passat Se' 'Q5 Prestige'
+ 'Prius s' 'Aqua G' 'CLK 230' 'Altezza' 'Venza' 'Z4 3,0 SI' 'Grand HIACE'
+ 'Doblo' 'Camry sport' '535 i xDrive' 'Tourneo Connect' 'GL 320 bluetec'
+ 'S80' 'Ignis' 'Transit ford' 'Ceed' 'ES 300' 'Discovery'
+ 'CL 55 AMG KOMPRESSOR' 'C 63 AMG' 'Hr-v EX' 'Jetta TDI' 'XC90' 'CL 550'
+ 'Vito 115 CDI' 'Punto' '3.18E+38' '500 sport' 'Celica' 'RS7' 'Pathfinder'
+ 'Minica' 'Accent SE'
+ 'E 430' 'A 170' 'Vaneo' 'CLK 430' 'RX 400 RESTAILING' 'Taurus X' 'Gentra'
+ 'C 320 AMG' 'E 320 bluetec' 'Qashqai SPORT' '500X' 'Catera' 'Neon'
+ 'Phaeton' 'Vectra c' 'RX 400 HYBRID' 'Prius 1.8' 'Transit S' 'Megane']
+
+
+
+
+ ['CLA 250', 'Actyon', 'ML 350', 'H1', 'Genesis', 'Sonata', 'RX 450', 'E 500', 'Santa FE', '320 Diesel', 'C 280', 'Astra', 'Sportage', 'XC90 3.2 AWD', 'Tiida', 'Corolla', '4Runner', 'Land Cruiser 105', 'CLK 230', 'Prius', 'Corolla LE', 'CHR', '330', 'S 350 CDI 320', 'Camry', 'FIT', 'Fiesta', 'Highlander', '528', 'LS 460', 'M5 Japan', '500', 'Aqua', 'GL 320', 'Cr-v LX', 'C 220', 'GX 460', 'Prius V', 'Passat', 'GX 470', '320', 'Prius C', 'CX-5', 'Malibu', 'X5', 'Q7', 'Tucson', 'Fusion', 'Grand Vitara', 'A7', 'E 350', 'Elantra', 'Element', 'Delica', 'Civic', 'Altima', 'Vectra', 'Forester', 
+'Sorento', 'Jetta', 'CLK 320', 'E 290', 'Sprinter 308 CDI', 'E 200', 'Vanette', 'C-MAX', 'RAV 4', 'Escape', 'MKZ', 'Sonata 
+SPORT', 'Note', 'C 200 KOMPRESSOR', 'F150', 'GLA 250', 'Elantra LIMITEDI', '31514', '500L', 'A4', 'Captiva', 'Equinox', '525 Vanos', 'Camry XV50', 'Avenger', '328', 'Kyron', 'Century', 'E 320', 'Compass', 'Cruze', '2107', 'Shuttle', 'Tundra', 'Gentra', 'X-Trail', '500C Lounge', 'Legacy Outback', 'Cayenne', 'Sienna', 'Hilux', 'CT 200h', 'E 300', 'Spark', 'Optima', 'Vito', 'Juke', 'E 220', 'Terios', 'Malibu LT', 'Prius V HIBRID', 'Odyssey', 'Lacetti', 'Transit', 'RX 350', 'Combo', 'RAM', 'Avalon LIMITED', 'C 180', 'Q5', 'Monterey', 'X6', 'Camaro', 'Orlando', '21', 'Elantra se', 'Corolla se', 'Step Wagon', 'VOXY', 'REXTON', 'A6 Ã¥Â°Â\x8f6', '325', 'X-Terra', 'E 240', 'A6', 'CLK 200', 'E 550', 'Tacoma', 'Caliber', 'Explorer Turbo japan', 'Colt', 'S 320', 'Focus', 'Astra H', 'Corsa', 'NX 300', 'E-pace', 'Mazda 6', 'Murano', 'Wrangler', '318', 'Pajero IO', 'Montero Sport', 'Insight', 'Golf', 'Vitz', 'Volt', 'Challenger', 'HS 250h', 'CX-7', 'Land Cruiser Prado', 'Impala', '535', 'C1 C', 'Outlander', '2109', 'Frontera', '24', 'A 190', 'S 550', 'Land Cruiser Prado RX', 'Juke Nismo', 'Elantra Limited', 'E 320 4Ã¨Â\x84Â³4', 'Sprinter', 'Camry Le', 'Renegade', 'Pajero 2.5diezel', 'Avensis', 'CLS 55 AMG', 'Cr-v', 'Yaris', 'C 220 CDI', 'Galant GTS', 'Cruze LT RS', 'Avella', 'SOUL', '530', 'RAV 4 LIMITED', 'Maxima', 'GLE 350', 'CC', 'SLK 32 AMG', 'Versa', '1000', 'ML 63 AMG', 'VehiCross', 'B 180', 'One', 'Quest', 'Transit Connect Prastoi', 'Pajero', 'RIO', 'Astra g', 'Lantra LIMITED', 'Mustang', 'Sprinter VAN', 'Golf 4', 'Highlander XLE', 'Aveo', 'Korando', 'Mx-5', 'IS 200', 'Vento', 'Camry se', 'March', 'Camry LE', 'C 300', 'A8', 'Aqua s', 'C 36 AMG', '2101 01', 'CL 600', 'Matiz', 'C 250', '200', 'RX 400', 
+'S 600', '320 i', '520', 'Swift', 'HUSTLER', 'CL550 AMG', '750 4.8', 'FIT RS', 'Scirocco', 'Alphard', 'Intrepid', 'Cr-v Cr-v', 'Camry SE', 'IS 250', 'E 420', 'S 63 AMG', 'INSIGNIA', 'Zafira', 'Kizashi', 'R 350', 'E 270', 'RX 400 hybrid', 'Mazda 2', 'Omega B', 'Airtrek', 'TERRAIN', 'Combo TDI', 'A 140', 'Accent', 'G 63 AMG', 'Sentra', 'Range Rover', 'C 350', 'Sequoia', '328 Xdrive', 'Cerato', 'Avalon Limited', 'C 200', 'Doblo', '535 M PAKET', '740', 'Fun Cargo', 'X-Trail NISMO', 'CLS 500', 'XF', 'A3', 'SX4', 'Cruze LT', 'GL 63 AMG', 'C 320', 'Altezza', 'DS 4', 'ML 320', 'Ghibli', 'ATS', 'Passat se', 'FIT GP-6', '1500', 'X5 E70', 'XV', 'Ramcharger', '370Z', 'Juke NISMO', 'NX 200', '750', '545', 'A6 evropuli', 'Sirion', 'Skyline', 
+'macan', 'Verso', 'Liberty', 'Cooper', 'Elysion', '328 DIZEL', 'Accent SE', '307', 'Taurus', 'Ist 1.5', '528 i', 'GL 500', 
+'Edix FR-v', 'Phaeton', 'CX-9', '320 Gran Turismo', 'Outback', '535 I', 'Land Cruiser 200', 'Legacy Bl5', 'Laguna', '3008 2.0', 'iA isti', 'Rodeo', 'I30', '435 CUPE', 'ML 350 4matic', 'X5 3.5', 'Transit Tourneo', 'Camry Hybrid', '316', 'Transit Connect', 'Scenic', 'M3', 'Highlander LIMITED', 'ES 350', 'Dart', 'ES 300', 'Gloria', 'Legacy', 'Serena', 'Pilot', 'CLA 250 
+AMG', 'Encore', 'Cayenne S', '911', 'G 65 AMG 63AMG', 'GL 350 BLUETEC', 'L 200', 'UP', '190', 'CHR Limited', 'Smart', 'S 420', 'ML 550', 'C8', 'Jimny', 'Elgrand', 'G 55 AMG', 'Passat 2.0 tfsi', 'QX56', 'Vectra B', 'Defender 90 Cabrio', 'Niro', 'Highlander 2,4', '320 2.2', '428', 'Dart GT 2.4', 'Zafira B', '525', 'Prius C YARIS IA', 'ML 350 4 MATIC', 'Ist', 'Panamera', '500 SPORT', 'Golf 6', '1300', 'C 300 sport', 'Equinox LT', 'Land Cruiser', 'Jetta SEL', '159', 'A4 Sline', '340', 'Polo', 'Caliber sxt', 'GL 450', 'GTI', 'Impreza', 'Corolla S', 'G 320', 'Cooper S Cabrio', 'Clio', '300', 'C 230', 'ML 500 AMG', 'XJ', 'A 160', 'Avalon', 'Legend FULL', '335', 'F-pace', '300 LIMITED', 'Veloster', '320 320', 'CX-3', '550', 'Octavia', '500X Lounge', 'Impreza WRX/STI LIMITED', 'Touareg', 'Focus SE', 'Kicks', 'RX 450 H', 'Venza', 'Demio', 'Atenza', 'Elysion 3.0', 'Pathfinder', 'Juke juke', 'Fred', 'Tucson SE', '630', 'X3', 'Cherokee', 'Camry XLE', 'Mariner', '500 Abarth', 'Outlander sport', 'Crossfire', 'C 250 A.M.G', 'ISIS', 'Edge', 'Rx-8', 'Musa', 'Transit 2.4', 'Traverse', 'Fusion HYBRID', 'E 300 
+AVANTGARDE-LTD', 'C4', 'Eunos 500', 'C 240', 'X5 M', 'RS7', 'Omega', 'IS 350', 'Prius plagin', 'Bluebird', 'Cruze strocna', 'FX35', 'Demio evropuli', 'S 500 67', 'Rogue', 'Cooper CLUBMAN', 'Cayman', 'X1', 'FIT Hbrid', 'Will Vs', 'A5', 'HHR', '400X', 'Escape Hybrid', 'TLX', 'S40', 'i40', 'Grandis', '500 turbo', 'Panamera S', 'Astra 1600', '500 Sport', 'Journey', 'G 350', 'Mazda 3', 'CLS 350', 'EcoSport', 'Mirage', 'Wish', 'H2', 'Prius plug-in', 'Crosstrek', 'Sprinter 315CDI-XL', 'Astra G', 'Cruze Cruze', 'Grand Cherokee', 'Vito 2.2', 'Accord', 'FIT LX', 'ML 55 AMG', 'A 140 140', 'Auris', '280', 'X5 XDRIVE 35D', 'Countryman', 'Patriot', 'Yukon', 'Sonic LT', 'xD', 'ML 350 ML350', 'RX 300', 'Panda', 'GL 550', 'Passport', 'A6 UNIVERSAL', 'CLK 320 avangarde', '2106', 'C 230 2.0 kompresor', 'Picanto', 'Edix', 'Azera', 'Passat sel', '525 i', 'Pathfinder SE', 'Ipsum', 'CT 200h F sport', 'X5 DIESEL', 'Transit Custom', '328 i', 'Patrol', 'Step Wagon RG2 SPADA', 'Quattroporte', '335 D', 'Tourneo Connect', 'MPV LX', '2121 (Niva)', 'Fusion TITANIUM', 'C 200 7G-TRONIC', 'Camry S', 'MPV', 'Carnival grand', 'S 500', 'Cruze RS', 'Cadenza', 'Elantra GT', 'FIT HIBRID', 'Jetta SE', 'Q3', 'E 230', 'Integra', 'Fit Aria', 'Passat SEL', 'Quest 2016', 'A4 B5', 'Q7 sport', 'E 280 CDI', 'Fusion Titanium', 'Passat sport', 'Camry XSE', 'Crafter 2.5 TDI', '250', 'Vitz funkargo', 'PT Cruiser', 'ML 500', 'Durango', 'CLK 240', 'Megane', 'Town Car', 'Sprinter 313', 'Caldina', 'A4 S line', 'GS 350', 'Sonata 2.4L', 'Stream', 'Liana', '206', 'Samurai', 'Astra td', 'Vectra H', 'Sprinter 311', 'Sienta LE', '230 
+W153', 'Prius V HYBRID', 'Meriva', '3.20E+38', 'S60', 'Expedition', '500 sport', 'Belta', 'CLK 55 AMG', 'Taurus interceptor', 'Getz', '230', 'Ipsum S', 'Presage RIDER', 'Prius C 1.5I', '31105', 'Carisma', 'Golf 2', 'S 430', 'Forester SH', 'Vectra b', 'Volt premier', 'Camry sport', 'A 170 Avangard', 'S3', 'Fuga', 'Aqua S', 'Continental', 'GLK 350', 'E 280', 'Cruze sonic', 'RX 350 F sport', 'Sonata SE', 'Explorer', 'T5', 'Twingo', '650 450 HP', 'X1 X-Drive', 'Demio Sport', 'ML 320 AMG', 'M4 Competition', 'Golf TDI', 'Pajero Mini', 'CLK 230 .', 'Q5 S-line', 'CLK 270', 'A4 premium', 'Grandeur', 'Elantra limited', 'E 220 cdi', 'X3 3.5i', 'B9 Tribeca', 'Micra', '114', 'Vito 113', 'GL 350', 'E 36 AMG', 'Astra j', 'Optima X', 'Caddy', 'Omega 1', 'Forester stb', 'RS6', 'Bora', '270', '550 GT', 'CLS 550', 'Grand Cherokee Saiubileo', 'Navigator', 'E 280 3.0', 
+'Ceed', 'Every Landy NISSAN SEREN', 'Mustang ecoboost', 'Land Rover Sport', 'A4 B7', '645', 'Fabia', 'Forte', 'Elantra SE', 'Escape HYBRID', 'Prius 2014', '535 535', 'S 400', 'Fusion Bybrid', 'G 550', 'Corolla spacio', 'ML 280', 'VOXY 2003', 'Silvia', '323', 'Tiguan', 'C-MAX SE', 'Courier', 'Charger RT', 'Minica', 'Teana', 'tC', 'Discovery', 'Golf 3', 'JX35', '428 Sport Line', 'Verisa 2007', 'Accent GS', 'Cruze PREMIER', '9-Mar', 'Fusion hybrid', 'M37', 'XC90 2.5turbo', 'Versa SE', '130', 'Fortuner', 'Town and Country', '535 M', 'Sprinter 411', 'Chariot', 'Carnival', 'A 170', 'CLS 63 AMG', 'Golf Gti', 'Step 
+Wagon Pada', 'Focus TITANIUM', 'FIT Modulo', '118 2,0', 'i3', 'Vitz RS', 'CLK 430', 'Tucson Limited', 'KA', 'Fusion SE', 'Omega c', 'Volt PREMIER', 'Mazda 6 TOURING', 'Fred HIBRIDI', 'CL 500', '220', '535 i', 'Astra astra', 'Focus se', 'Prius prius', 'Paceman', 'Optima SXL', '420', 'R2', 'Mazda 3 SPORT', 'Sienta', 'X5 3.0i', 'Veracruz', 'Elantra sport limited', 'Sorento SX', 'Santa FE long', 'C 200 2.0', 'X4', 'Elantra LIMITED', 'Eclipse', 'Smart Fortwo', 'CX-5 Touring', 'Tiida AXIS', 'Pajero MONTERO', 'E 500 AVG', 'Aerio SX', '118', 'Colorado', 'S 350', 'SRX', 'Wingroad', 'ColtPlus', '550 F10', 'Sambar', 'Kangoo Waggon', 'GLE 63 AMG', 'Outlander 2.0', 'Vesta', 'V 230', 'Cruze ltz', 'C 63 AMG', 'Octavia Scout', 'Prius S', 'Corvette', 'Prius C 80 original', 'X5 rest', 'Optima k5', 'M5', 'Vectra 1.6', 'Niva', 'Discovery LR3', 'RAV 4 L', '1111', 'Elantra 2014', 'Transit Fff', 'FIT PREMIUMI', 'Legacy B4 twin turbo', 'Vitz i.ll', 'Freelander', '645 CI', 'Aqua HIBRID', 'M4', 
+'Optima HYBRID', 'TSX', 'CR-Z', 'Countryman S', 'Premacy', 'Avalanche', 'Santa FE sport', 'Elantra i30', 'E 350 AMG', 'H3', 'Skyline 4WD', '530 525i', 'IS-F', 'Allroad', 'Yaris IA', 'Mondeo', 'M550', 'Agila', 'E 220 CDI', 'Tiguan SE', 'Neon', 'Jetta TDI', 'Panamera GTS', 'FIT Hybrid', 'RDX', 'X1 4X4', 'C 320 CDI', 'Accord CL9 type S', 'Focus ST', 'Prius Plug IN', 'Octavia SCOUT', 'Lancer', 'Camry SPORT PAKET', 'Vito 110d', 'GLE 450', 'Cooper F-56', 'Outback 2007', 'Sonata Hybrid', 'Combo 1700', 'Elantra Gt', 'XC90', 'Seicento fiat 600', 'X3 SDRIVE', 'Jetta 1.4 
+TURBO', 'Camry SPORT', 'CTS', 'Sonic', 'R 320', '416', 'C30', '316 i', 'Harrier', 'GLK 250', 'Berlingo', '525 ///M', 'Nubira', 'QX80', 'Elantra GS', 'Optima hybid', '530 I', 'X5 M packet', 'Kalos', 'Sintra', 'Hr-v', 'G37', '100', 'Envoy', 'E 430', 'B 170', 'X 250', 'Prius 1.5I', 'Golf 1.8', 'C 250 1,8 turbo', 'Golf GOLF 5', 'GLE 400 Coupe, AMG Kit', 'Stella', '31514 
+UAZ', 'SL 55 AMG', 'Crafter', 'FIT ex', 'E 500 AMG', '118 M-sport LCI', 'C 230 kompresor', 'Versa s', 'C5', 'G 230 2.2cdi', 'Sai', 'Duster', 'CT 200h F-sport', 'Elantra 2016', 'Wrangler sport', 'Sorento EX', 'Vito Extralong', 'Land Cruiser 100', 
+'500 Lounge', 'RAV 4 Dizel', 'ML 350 3.7', 'E 270 AVANGARDI', 'Corolla 140', '525 525', 'Passat SE', 'E 200 2000', 'March 231212', '730', 'Allroad Allroad', 'Patriot 70th anniversary', 'G35 x', 'Countryman s', 'Trax', '535 comfort-sport', 'FIT fit', 'Veloster TURBO', 'Sprinter 516', 'Verisa', 'GLC 300', 'C 180 2.0', 'Caravan', 'Montero', 'C 32 AMG', 'Jetta sei', '616', 'Carens', '435', '3.25E+48', 'HS 250h Hybrid', 'Viano', 'Omega b', 'REXTON SUPER', 'S6', 'IX35', '2140', 'Cooper r50', 'Leaf', 'Sprinter Maxi-Ã©Â\x86Â¿?Max', 'E 400', 'Cerato K3', 'LAFESTA', 'Highlander 2.4 lit', 'Forester cross sport', '328 sulev', 'Q45', 'Vectra C', 'Crosstour', 'RAM 1500', 'Passat tdi sel', 'Passat pasat', 'CC R line', 'XK', 'Kangoo', 'ML 350 SPECIAL EDITION', 'Camry sporti', 'Highlander sport', 'Avalon limited', 'C 250 AMG', 'Transit T330', 'R 350 BLUETEC', 'Mustang cabrio', 'E 350 4 Matic AMG Packag', 'Sonata hybrid', 'E 250', 'Sonata Limited', 'Eos', 'Land Cruiser PRADO', 'Allante', 'X1 28Xdrive', 'Outlander Sport', 'Outlander SPORT', 'Silverado', 'Caravan tradesman', 'Outback Limited', 'Prius C Hybrid', 'Camry XLEi', 'C 270', 'A5 Sportback', 'Lancer GTS', 'Hr-v EX', 'LATIO', 'FIT SPORT', 'Vaneo', 'Millenia', '225', 'Enclave', 'V50', 'Camry sport se', 'S 350 W2222', '208', 'GLC 300 GLC coupe', '530 G30', '401', 'B-MAX', 'Sportage PRESTIGE', 'GL 350 Bluetec', 'Jetta sport', 'Vitara GL+', 'X6 M', 'Veloster Turbo', 'Transit CL', 'Sierra DIZEL', 'Jetta 2', 'Lupo', 'ML 
+270', 'I', 'Sprinter 316', 'GS 300', 'Range Rover Vogue', 'Pajero Sport', 'M6', 'Prius s', 'A6 premium plus', 'Camry Se', 'TL', '2107 07', '207', 'Passat B5', 'Fusion HIBRID', 'Prius C 2013', 'A 200', 'Forester L.L.BEAN', 'Hilux Surf', '650', 'Hr-v EXL', 'Insight EX', 'Focus Titanium', '550 M Packet', 'Forester 4x4', '406', 'ML 250', 'Daimler', 'Frontier', 'G20', 'X5 4,4i', '2103 03', '730 3.0', 'Vitara', '320 2.0', 'Sprinter VIP CLASS', 'RX 450 HYBRID', 'A6 QUATTRO', '535 Twinturbo', 'A 170 CDI', 'Rogue SPORT', 'Focus Fokusi', 'Camaro LS', 'Megane GT Line', 'Land Cruiser 80', '290', 'LX 570', 'Tribute', '528 3.0', 'X-type', 'Sonata HYBRID', 'BRZ', '745', 'Navara', 'S-type', 'Polo GTI 16V', '5.30E+62', 'Tigra', 'Wrangler ARB', 'Matrix XR', '135', 'E 200 CGI', 'Fiesta SE', '500 s', 'CC 2.0 T', 'F50', 'RIO lX', 'Jetta Hybrid', 'A3 PREMIUM', 'Optima ECO', 'Corolla ECO', 'Elantra GLS / LIMITED', '969 luaz', 'E 350 4 MATIC', 'Prius 3', 'Z4', 'Cruze LS', 'Escalade', 'Cougar', 'Alto Lapin', '320 I', 'Malibu eco', 'CLK 200 200', 'Micra <DIESEL>', 'TL saber', 'Escape escape', 'GLE 400', 'GLS 450', 'E 230 124', 'Fusion 2015', 'Escape Titanium', 'B 170 B Class', 'Trailblazer', 'IX35 2.0', 'C 250 1.8', 'RC F', 'Ranger Wildtrak', 'GLA 200', 'F-type', 'Outlander xl', 'Leon', 'kona', 'RAV 4 XLE', 'Hiace', 'Impreza Sport', 'Camry SE HIBRYD', 'X6 GERMANY', 'Acadia', '206 CC', 'CLK 200 Kompressor', 'Prius 11', 'S-max', 'Focus Flexfuel', 'Civic EX', '400', 'Elantra Se', 
+'GS 450', '320 DIESEL', 'Frontera A B', 'EX37', 'Megane 1.9CDI', 'Kizashi sporti', 'C-MAX SEL', 'Continental GT', 'Galaxy', 'NEW Beetle', 'GLS 63 AMG', 'CLS 350 AMG', 'Cruze LTZ', '3110', '500C', '540 I', 'Range Rover VOGUE', 'FIT RS MUGEN', 'XL7', 'Celica', 'A3 4X4', 'Cayenne s', 'GLE 43 AMG', 'Tiida 2008', 'X5 restilling', '960', 'X5 3.0', 'CLS 450 CLS 400', 'Noah','3008', 'Captur QM3 Samsung', 'EX35', 'Suburban', '32214', 'Lupo iaponuri', 'IS 350 C', 'Civic Ferio', 'Optima Hybrid', 'March Rafeet', 'C 400', 'Armada', 'H6', 'Aqua G', 'Countryman S turbo', 'Demio 12', 'X-Trail NISSAN X TRAIL R', 'Optima EX', 'Mark X Zio', 'Ractis', 'C 300 4matic', 'C30 2010', 'S 550 LONG', 'Countryman sport', 'Highlander limited', 'Volt Premier', 'Crossroad',  'Jetta SPORT', '500 sport panorama', 'Focus SEL', 'Sonata 2.0t', 'Sportage EX', 'Ranger', 'E 240 E 240', '3.18E+38', 'S 350 Longia', 'Sharan', 'SLK 230', 'Sportage SX', 'Sonata Sport', 'X5 x5', '735', 'Vito long115', 'ML 350 sport', 'MDX', 'Prius C hybrid', 'X5 XDRIVE', 'CLK 350', 'C 43 
+AMG', 'Camry HYBRID', 'RAV 4 XLE Sport', 'Range Rover Evoque', 'Touran', 'CLS 550 550', 'Transit 350T', 'Transporter', 'Legacy b4', 'Caliber journey', '607', 'GX 470 470', 'Escort', '100 NX', 'Passat tsi-se', 'Yaris SE', 'Patriot Latitude', 'Elantra gt', 'Sonata LPG', 'Vito Exstralong', 'Legacy bl5', 'Vito 111', 'Primera', 'E 200 w210', 'CLA 45 AMG', 'Prius 9', 'Astra 
+GE', 'Juke Juke', 'C 240 w203', 'Legacy B4', 'Sonata SE LIMITED', 'Passat B7', 'Mark X', 'Astra suzuki mr wagon', '166', '311', 'Grand HIACE', 'Passat RLAINI', '626', 'FIT "S"- PAKETI.', 'Prius C Navigation', 'Prius plugin', 'Galloper', '640 M', 
+'E 270 CDI', 'Estima', 'Escape SE', 'X5 e53', 'E-pace p200', 'Feroza', 'C70', '525 TDI', 'Patrol Y60', 'QX60', 'Galant', 'CLS 350 JAPAN', 'CERVO', 'GL 350 BLUTEC', 'S70', 'Vito Extra Long', 'Colt Lancer', '318 m', 'Crafter 2,5TDI', 'CLK 280', 'S 
+430 4.3', 'Insight LX', 'Sierra', 'ColtPlus Plus', 'XV LIMITED', 'X5 35d', 'Cruze Premier', 'Juke Nismo RS', 'RX 400 H', 'Megane 5', 'Presage', 'Almera dci', 'E 260', 'FIT PREMIUM PAKETI', 'Aqua L paketi', 'Sprinter EURO4', 'RAV 4 SPORT', 'Rasheen', 'A4 premium plius', 'Vue', 'Panamera 4', 'CC sport', '535 XI', 'GLE 400 A M G', 'RX 400 RESTAILING', '116', 'IS 300', 
+'216', 'E 350 w211', 'Mazda 6 Grand touring', 'Almera', 'Mazda 6 Grand Touring', '1500,1600 Schtufenheck', 'C 200 Kompressor', 'AMG GT S', 'Sprinter 314', 'RX 400 HYBRID', 'Astra A.H', 'Sonata LIMITED', 'RAV 4 s p o r t', 'Will Chypa', '2111', 'FIT Premiym', 'Superb', 'Prius C aqua', 'Lantra', 'Civic Hybrid', 'Terrano', 'H1 starixs', 'Prius TSS LIMITED', 'Veloster remix', 'Giulietta', 'Passo', 'Cruze S', 'Tiida Latio', 'Lancer GT', 'Rogue SL', 'G 65 AMG G63 AMG', 'Sonata S', 'X6 40D', 'FIT GP-5', 'F-type R', 'Jetta se', 'Jetta GLI', 'X-Trail X-trail', 'Axela', 'Jetta sel', 'C-MAX PREMIUM', 'Transit 135', 'Vito 111 CDI', 'Protege', 'Tucson Se', 'SJ 413 Samurai', 'Inspire', '320 M', 'Mira', 'Fusion HYBRID SE', 'IS 250 TURBO', '520 I', 'ML 270 CDI', 'X5 4.8is', 'Aqua g soft leather sele', 'E 350 4 matic', 'S 500 long', 'Grand Cherokee special e', '120', '7.30E+34', 'Range Rover Evoque 2.0', '530 M', 'Mariner Hybrid', '969 968m', 'Sebring', 'Wizard', 'RAV 4 Le', 'E 350 212', '740 i', 'C-MAX C-MAX', 'A7 Prestige', 'C 230 2.5', 'Skyline GT250', 'Sprinter 316 CDI', 'Explorer XLT', 'Prius BLUG-IN', 'CLK 200 208', 'Phantom', 'ML 350 BLUETEC', 'Outback 3.0', 'X5 Sport', 'Cooper S', 'Aqua sport', 'Vito 115', '940', 'RIO lx', 'Prius Plug in', 'A6 C7', 'Sonata blue edition', 'X-Trail gt']
