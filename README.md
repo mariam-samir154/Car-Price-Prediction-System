@@ -73,7 +73,6 @@ Matplotlib / Seaborn
 
 Web Framework: Streamlit
 
-Model Persistence: Pickle / Joblib
 
 ⚙️ Project Workflow
 
@@ -91,12 +90,18 @@ Deployment using Streamlit
 
 🚀 How to Run the Project
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/Car-Price-Prediction-System.git
 cd Car-Price-Prediction-System
+
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
+
 3️⃣ Run the Streamlit App
+
 streamlit run app.py
+
 📈 Model Evaluation Metrics
 
 R² Score
@@ -114,12 +119,21 @@ The application allows users to input car details and instantly receive an estim
 📁 Project Structure
 Car-Price-Prediction-System/
 │
+
 ├── data/
+
 │   └── dataset.csv
+
 ├── models/
+
 │   └── trained_models.pkl
+
 ├── notebooks/
+
 │   └── exploration.ipynb
+
 ├── app.py
+
 ├── requirements.txt
+
 └── README.md
